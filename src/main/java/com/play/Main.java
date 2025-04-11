@@ -9,5 +9,6 @@ public class Main {
         System.out.println("hello");
         System.out.println("hello1");
         System.out.println("今天天气不错");
+        System.out.println("ww");
     }
 }
