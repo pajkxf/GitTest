@@ -15,5 +15,6 @@ public class App {
         list.add(3);
         List<Integer> list1 = list.stream().filter(x -> x % 2 == 0).collect(Collectors.toList());
         list1.stream().filter(x -> x % 2 == 0).forEach(System.out::println);
+        list1.forEach(i-> System.out.println(i));
     }
 }
